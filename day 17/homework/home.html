@@ -1,0 +1,73 @@
+<!-- 1) -->
+<!-- <audio controls autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+  your browser doesnt support this audio file
+</audio>
+controls autoplay loop -->
+
+<!-- 2) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>აუდიო ფაილების გვერდი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .audio-box {
+            margin-bottom: 30px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>მოგესალმებით ჩემს აუდიო გვერდზე!</h1>
+    <p>ქვემოთ შეგიძლიათ მოისმინოთ რამდენიმე განსხვავებული აუდიო.</p>
+
+    <div class="audio-box">
+        <h2>1. mp3 ფორმატი (მუსიკა)</h2>
+        <audio controls autoplay loop>
+            <source src="music.mp3" type="audio/mpeg">
+            თქვენი ბრაუზერი არ უჭერს მხარს აუდიო თეგს.
+        </audio>
+    </div>
+
+    <div class="audio-box">
+        <h2>2. wav ფორმატი (ხმოვანი ეფექტი)</h2>
+        <audio controls>
+            <source src="effect.wav" type="audio/wav">
+            თქვენი ბრაუზერი არ უჭერს მხარს აუდიო თეგს.
+        </audio>
+    </div>
+
+    <div class="audio-box">
+        <h2>3. ogg ფორმატი (ხმა)</h2>
+        <audio controls>
+            <source src="voice.ogg" type="audio/ogg">
+            თქვენი ბრაუზერი არ უჭერს მხარს აუდიო თეგს.
+        </audio>
+    </div>
+
+    <a href="attributes.html">იხილეთ აუდიო ატრიბუტების ახსნა</a>
+
+</body>
+</html>
+
